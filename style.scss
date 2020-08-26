@@ -153,14 +153,16 @@ body {
         #num {
           font-family: "Playfair Display", serif;
           font-size: 30vh;
-          text-align: center;
+          text-align: left;
+          margin-left: 6vh;
           color: #303030;
         }
         #suit {
-          margin-top: 65px;
+          margin-top: 6vh;
+          margin-right: 3vh;
           color: #303030;
           font-size: 30vh;
-          text-align: center;
+          text-align: right;
         }
       }
     }
