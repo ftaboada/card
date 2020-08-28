@@ -143,24 +143,28 @@ body {
       width: 50vh;
       height: 70vh;
       background-color: $cardBk;
-      border: black solid 2px;
+      border: #3c3c3c solid 2px;
       border-radius: 12px;
       box-shadow: 10px 25px 35px #a1a1a1;
+      background-image: url("img/Geometric+pattern+squares+003.jpg");
+      background-size: cover;
+
       #container {
         display: grid;
         grid-template-rows: 50% 50%;
         align-items: center;
+        display: none;
+
         #num {
-          font-family: "Playfair Display", serif;
-          font-size: 30vh;
+          font-family: "Open Sans", sans-serif;
+          font-size: 27vh;
           text-align: left;
           margin-left: 6vh;
-          color: #303030;
         }
         #suit {
+          font-family: "Open Sans", sans-serif;
           margin-top: 6vh;
-          margin-right: 3vh;
-          color: #303030;
+          margin-right: 6vh;
           font-size: 30vh;
           text-align: right;
         }

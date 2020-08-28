@@ -155,10 +155,12 @@ body #app #card {
   width: 50vh;
   height: 70vh;
   background-color: #ffffff;
-  border: black solid 2px;
+  border: #3c3c3c solid 2px;
   border-radius: 12px;
   -webkit-box-shadow: 10px 25px 35px #a1a1a1;
           box-shadow: 10px 25px 35px #a1a1a1;
+  background-image: url("img/Geometric+pattern+squares+003.jpg");
+  background-size: cover;
 }
 
 body #app #card #container {
@@ -169,20 +171,20 @@ body #app #card #container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: none;
 }
 
 body #app #card #container #num {
-  font-family: "Playfair Display", serif;
-  font-size: 30vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 27vh;
   text-align: left;
   margin-left: 6vh;
-  color: #303030;
 }
 
 body #app #card #container #suit {
+  font-family: "Open Sans", sans-serif;
   margin-top: 6vh;
-  margin-right: 3vh;
-  color: #303030;
+  margin-right: 6vh;
   font-size: 30vh;
   text-align: right;
 }
